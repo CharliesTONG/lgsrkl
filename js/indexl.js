@@ -33,7 +33,7 @@ var S = {
       S.Shape.render();
       //console.log(m);
       if(m==1000){
-        window.location.href="index1.html";
+        window.location.href="index.html";
       }
     });
 
