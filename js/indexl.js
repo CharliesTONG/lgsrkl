@@ -25,7 +25,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('zh|看什么看|说的就是你|你个|傻逼|');
+      S.UI.simulate('张大炮|看什么看|说的就是你|你个|250|');
     }
 
     S.Drawing.loop(function () {
