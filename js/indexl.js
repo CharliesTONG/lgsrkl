@@ -25,7 +25,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('张大炮|看什么看|说的就是你|你个|250|');
+      S.UI.simulate('HELLO|儿子|今天是你的生日|爸爸祝你生日快乐🎂|苟富贵 勿相忘|');
     }
 
     S.Drawing.loop(function () {
