@@ -34,10 +34,6 @@ body,
   -webkit-perspective-origin-y: 25%;
 }
 
-audio {
-    display: none;
-}
-
 .body--ready {
   /* Ideas
   background: -webkit-linear-gradient(top, #e2b986 -10%, #241c35 140%);
@@ -331,4 +327,8 @@ audio {
 
 .touch .ui-input {
   display: none;
+}
+
+audio {
+    display: none;
 }
